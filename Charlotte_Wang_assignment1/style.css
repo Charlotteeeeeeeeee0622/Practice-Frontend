@@ -1,0 +1,49 @@
+/* table, td, th {
+    border: 1px solid black;
+  } */
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+  .search-container {
+    /* display: flex; */
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  form {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 24px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    background-color: transparent;
+  }
+  
+  select {
+    width: 200px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
